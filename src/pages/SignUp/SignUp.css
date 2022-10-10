@@ -1,0 +1,23 @@
+.signup_container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.signup_input_container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup_buttons_container {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+}
