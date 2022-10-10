@@ -20,7 +20,7 @@ export const userApi = createApi({
     }),
     getUserInfo: builder.mutation({
       query: () => ({
-        url: "/userInfo",
+        url: "/userInfoToken",
         method: "POST",
       }),
       transformResponse: (response) => response.data,
